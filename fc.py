@@ -195,7 +195,7 @@ class Ui_MainWindow(object):
         self.tab_1_btn_unotalone_invisible.setObjectName("tab_1_btn_unotalone_invisible")
         self.tabWidget.addTab(self.tab_1, "")
         self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setStyleSheet("")
+        self.tab_2.setStyleSheet("background-color: rgb(85, 170, 0);")
         self.tab_2.setObjectName("tab_2")
         self.tab_2_off_pc = QtWidgets.QLabel(self.tab_2)
         self.tab_2_off_pc.setGeometry(QtCore.QRect(10, 10, 425, 51))
